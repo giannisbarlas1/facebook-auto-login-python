@@ -1,6 +1,7 @@
 # facebook-auto-login-python
 
-
+## code 
+````
 from selenium import webdriver
 from time import sleep
 driver = webdriver.Firefox()
@@ -13,3 +14,4 @@ sleep(5)
 driver.find_element_by_xpath('//*[@id="u_0_b"]').click()
 sleep(5)
 
+`````
